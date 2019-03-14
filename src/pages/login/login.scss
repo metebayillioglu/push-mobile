@@ -1,0 +1,22 @@
+page-login {
+  .tabbar{
+    display: none;
+  }
+  .scroll-content {
+      background: url(../assets/imgs/login-bg.jpg);
+      background-size: cover;
+      background-position: 0px -115px;
+}
+.toolbar-background {
+  background: #181818 !important;
+}
+ion-title.title {
+  color: #ffffff;
+}
+.toolbar-title {
+  color: #fff;
+}
+button.back-button.disable-hover.bar-button {
+  color: #c3ad46;
+}
+}

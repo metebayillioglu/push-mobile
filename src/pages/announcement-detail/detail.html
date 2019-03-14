@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+       {{announcementTitle}}
+      </ion-title>
+
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content >
+
+<div class="title"> <h4 class="title">{{announcementTitle}} </h4></div>   
+    
+
+ <h5 class="content" [innerHtml]="html"></h5>
+
+ <p class="footer-left">
+  <button ion-button color="primary"  block (click)="DeleteAnnouncement()" class="login-btn" style="background: #a1a1a1;">Delete</button>
+</p>
+  
+    </ion-content>
+    

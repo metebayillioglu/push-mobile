@@ -1,0 +1,13 @@
+
+node_modules/
+platforms/
+plugins/
+resources/
+tsconfig.json
+tslint.json
+package.json
+package-lock.json
+ionic.config.json
+config.xml
+.DS_Store
+src/base/Configuration.ts

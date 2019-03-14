@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{title}}
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="LogOut()">
+        <ion-icon ios="ios-exit" md="md-exit"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <div class="noAnnouncements" *ngIf="isAnnouncement">{{noAnnouncementsText}}</div>
+
+
+  <ion-card *ngFor="let announcement of announcements" (click)="Detail(announcement)">
+    <ion-card-content>
+      <div class="title">
+        <h5>{{announcement.title}}</h5>
+      </div>
+
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

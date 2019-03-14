@@ -1,0 +1,25 @@
+page-announcements{
+    .title{
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .tarih{
+        text-align: right;
+
+        color:red;
+
+    }
+    .icerik{
+        text-align: left;
+        font-weight: bold;
+        
+    }
+    .noAnnouncements{
+        height: 100px;
+        padding-top:  20px;
+        background-color: #cccccc;
+        text-align: center;
+        font-size: 12px;
+    }
+}
