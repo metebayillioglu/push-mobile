@@ -144,7 +144,7 @@ UserControl(model: LoginModel): Observable<ReturnModelBase> {
 
 
   }
-  ParolaSifirla(email:string): Observable<ReturnModel> {
+  PasswordReset(email:string): Observable<ReturnModel> {
 
     //let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded' });//new Headers();
     let headers = new Headers();//new Headers();

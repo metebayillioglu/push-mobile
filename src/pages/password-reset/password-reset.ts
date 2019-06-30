@@ -39,7 +39,7 @@ export class PasswordResetPage {
     }
 
 
-    this.loginService.ParolaSifirla(this.txtEmail).subscribe(t => {
+    this.loginService.PasswordReset(this.txtEmail).subscribe(t => {
       this.showAlert("", t.text);
     })
   }
